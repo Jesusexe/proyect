@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-left">
+        <h1>QuickMove</h1>
+      </div>
+      <nav>
+        <ul class="header-right">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="portafolio.html">Portafolio</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="#acerca">Acerca de</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Redes Sociales -->
+      <section>
+        <h2>Síguenos en nuestras redes sociales</h2>
+        <ul class="social-media">
+          <li>
+            <a href="https://facebook.com/tu-pagina" target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/tu-pagina" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/tu-pagina" target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- Formulario de Contacto -->
+      <section>
+        <h2>Contáctanos Rápidamente</h2>
+        <form action="submit_form.php" method="post">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+          &copy; 2024 QuickMove. Todos los derechos reservados Jesus Cera and
+          Edgar Rodelo
+        </p>
+      </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
