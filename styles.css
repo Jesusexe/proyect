@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Body y estructura básica */
@@ -95,7 +96,7 @@ header {
       display: flex;
     }
   
-    /* Mostrar el icono de menú hamburguesa */
+    /* Mostrar el icono de menú  */
     .menu-icon {
       display: flex;
     }
@@ -179,7 +180,7 @@ ul li::before {
 /* Equipo */
 .team-member {
     display: inline-block;
-    width: 45%;
+    width: 25%;
     margin: 15px 2.5%;
     text-align: center;
 }
@@ -323,6 +324,13 @@ form button:hover {
 
 .gallery img {
     width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery2{
+    width:100%;
+    height: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
