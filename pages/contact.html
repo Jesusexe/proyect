@@ -34,15 +34,15 @@
         <h2>Síguenos en nuestras redes sociales</h2>
         <ul class="social-media">
           <li>
-            <a href="https://facebook.com/tu-pagina" target="_blank"
+            <a href="https://facebook.com" target="_blank"
               >Facebook</a
             >
           </li>
           <li>
-            <a href="https://twitter.com/tu-pagina" target="_blank">Twitter</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
           </li>
           <li>
-            <a href="https://linkedin.com/tu-pagina" target="_blank"
+            <a href="https://linkedin.com" target="_blank"
               >LinkedIn</a
             >
           </li>
@@ -52,19 +52,19 @@
       <!-- Formulario de Contacto -->
       <section>
         <h2>Contáctanos Rápidamente</h2>
-        <form action="submit_form.php" method="post">
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" required />
+        <form action="submit_form.php" method="post" onsubmit="return validarFormulario()">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required />
 
-          <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" required />
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required />
 
-          <label for="message">Mensaje:</label>
-          <textarea id="message" name="message" required></textarea>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
 
-          <button type="submit">Enviar</button>
+            <button type="submit" id="enviar">Enviar</button>
         </form>
-      </section>
+    </section>
     </main>
 
     <!-- Footer -->
